@@ -30,6 +30,7 @@ module.exports = {
     },
     rules: {
       'linebreak-style': 'off',
+      "react/jsx-key": 'error',
       "import/prefer-default-export": 'off',
       "react/prop-types": "off",
       'prettier/prettier': [
