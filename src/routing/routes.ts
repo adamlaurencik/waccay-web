@@ -1,8 +1,8 @@
-import Login from '../pages/Login';
+import Login from '../pages/Login/Login';
 import CreatePost from '../pages/CreatePost';
 import NewsFeed from '../pages/NewsFeed';
 import Profile from '../pages/Profile';
-import Register from '../pages/Register';
+import Register from '../pages/Register/Register';
 
 export enum Routes {
   LOGIN = '/login',
@@ -12,7 +12,7 @@ export enum Routes {
   REGISTER = '/register',
 }
 
-type RouteType = {
+export type RouteType = {
   path: Routes;
   component: React.FC;
   public?: true;
